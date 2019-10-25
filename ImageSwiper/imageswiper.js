@@ -21,19 +21,10 @@
                 updateExtensionBasedOnSettings(settingsEvent.newSettings);
             });
         });
-        // $('#inactive').hide();
-        // $('#active').show();
-        // const images = [
-        //     'https://mirror-gold-cdn.xitu.io/168e096ecfac6b8e4bb?imageView2/1/w/100/h/100/q/85/format/webp/interlace/1',
-        //     'https://mirror-gold-cdn.xitu.io/168e096ecfac6b8e4bb?imageView2/1/w/100/h/100/q/85/format/webp/interlace/1',
-        //     'https://mirror-gold-cdn.xitu.io/168e096ecfac6b8e4bb?imageView2/1/w/100/h/100/q/85/format/webp/interlace/1',
-        // ];
-        // setupImages(images);
-        // setupSwiper(1000);
     });
 
     function configure() {
-        const popupUrl = `${window.location.origin}/Samples/ImageSwiper/imageswiperDialog.html`;
+        const popupUrl = `${window.location.origin}/my_tableau_extension/ImageSwiper/imageswiperDialog.html`;
 
         tableau.extensions.ui.displayDialogAsync(popupUrl, defaultIntervalInMS, { height: 500, width: 500 }).then((closePayload) => {
             // The promise is resolved when the dialog has been expectedly closed, meaning that
