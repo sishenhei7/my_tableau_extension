@@ -1,2 +1,18 @@
 # my_tableau_extension
-some tableau extensions for test
+
+> some tableau extensions for test
+
+目前只有一个图片轮播插件。请下载 ImageSwiper 文件夹里面的 ImageSwiper.trex 文件安装插件。
+（由于相关的库文件都托管在 github，所以打开插件的时候可能较长）
+
+## 使用方法
+
+安装之后**按照提示进行配置**即可。
+
+## 配置项
+
+1.加入图片链接：直接赋值链接地址到输入框里面即可。（多张图片地址请用英文的 ';' 分隔）
+2.轮播间隔：直接输入数字即可。（单位：ms）
+
+注意：加入的图片会自动加到所有轮播图的末尾，并且可以**多次加入**
+
